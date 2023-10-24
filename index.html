@@ -13,6 +13,19 @@
     <h2 style="text-align: center;">Nama : Mochammad Iqbal Ramadhan</h2>
     <h2 style="text-align: center;">Npm  : 1214086</h2>
     <div id='map'></div>
+    <div class="col-auto">
+        <span class="input-group">
+          <label class="input-group-text" for="type">Geometry type:</label>
+          <select class="form-select" id="type">
+            <option value="Point">Point</option>
+            <option value="LineString">LineString</option>
+            <option value="Polygon">Polygon</option>
+            <option value="Circle">Circle</option>
+            <option value="None" selected>None</option>
+          </select>
+          <input class="form-control" type="button" value="Undo" id="undo">
+        </span>
+      </div>
     
         <input type="hidden" id="idmarker" name="idmarker" value="">
     

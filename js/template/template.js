@@ -1,4 +1,5 @@
 export let URLGeoJson = "https://us-central1-gisiqbal.cloudfunctions.net/geoiqbal";
+export let urlPostGCF = "https://us-central1-gisiqbal.cloudfunctions.net/gis-gcp";
 export let tableTag="tr";
 export let tableRowClass="content is-small";
 export let tableTemplate=`
